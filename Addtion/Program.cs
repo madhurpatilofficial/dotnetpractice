@@ -1,10 +1,14 @@
-﻿class Program
+﻿using System;
+
+namespace MyNamespace
 {
-    private static void Main(string[] args)
+
+
+    class Lol
     {
-        int a = 20;
-        int b = 3;
-        int c = a + b;
-        System.Console.WriteLine("Addition: " + c);
+        public void show()
+        {
+            Console.WriteLine("Well Done");
+        }
     }
 }
